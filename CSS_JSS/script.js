@@ -21,6 +21,7 @@ function pointunlock() {
 	if (points >= pointsneeded){
 		document.getElementById("next").className="nextunlocked";
 		document.getElementById("next").value="Nächstes Kapitel";
+		document.getElementById("next").href="/Schleifenundverzweigungen"
 	}
 }
 function Question(name){
